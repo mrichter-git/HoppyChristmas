@@ -5,3 +5,5 @@ theme: jekyll-theme-cayman
 navigation:
   - title: Home
     url: /
+  - title: Example
+    url: /example
