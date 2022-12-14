@@ -1,6 +1,6 @@
 title: Hoppy Christams! A guide to christmas beers
 description: The website for the group Applied Macaque analysis
-show_downloads: True
+show_downloads: False
 theme: jekyll-theme-cayman
 navigation:
   - title: Home
