@@ -47,5 +47,5 @@ Based on the lexic used to review winter beers, we would like to extract the key
 ### Little reminder : if you want to taste a beer :
 
  <p align="middle">
-  <img src="images/unknown" width="300" />
+  <img src="images/satellite.jpg" width="300" />
 </p>
