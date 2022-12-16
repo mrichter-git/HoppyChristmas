@@ -52,3 +52,6 @@ Based on the lexic used to review winter beers, we would like to extract the key
  <p align="middle">
   <img src="images/satellite.jpg" width="300" />
 </p>
+
+### tests
+{% include test.html %}
