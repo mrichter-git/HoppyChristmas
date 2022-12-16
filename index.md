@@ -37,8 +37,8 @@ To further study those particular beers, we will take a look at the average grad
 ### Lexical differences between all beers and winter related beers
 
  <p align="middle">
-  <img src="https://github.com/epfl-ada/ada-2022-project-appliedmacaqueanalysis/blob/main/images/wordmap.jpeg" width="300" />
-  <img src="https://github.com/epfl-ada/ada-2022-project-appliedmacaqueanalysis/blob/main/images/winter_wordmap.jpeg" width="300" /> 
+  <img src="images/wordmap.jpeg" width="300" />
+  <img src="images/winter_wordmap.jpeg" width="300" /> 
 </p>
 
 Based on the lexic used to review winter beers, we would like to extract the key features and words describing what makes a beer a successful one during winter period. Should any Natural Language Processing be required, we will conduct a sentiment analysis on these reviews using the _NLTK_ library. This will provide us with the needed tools to investigate how much the user appreciated it.
