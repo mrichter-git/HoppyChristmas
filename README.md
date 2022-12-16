@@ -3,5 +3,5 @@
 ## waaazaa
 ### mangemonzeub
 
-![My Image](images.jpeg)
+![My Image](images/images.jpeg)
 
