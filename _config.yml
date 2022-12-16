@@ -5,6 +5,9 @@ github.is_project_page: False
 theme: jekyll-theme-cayman
 navigation:
   - title: Home
-    url: /
+    url: /A
   - title: Example
     url: /example
+  - title: test
+    url: /
+   
