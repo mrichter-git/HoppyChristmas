@@ -26,8 +26,8 @@ Then, by analysing review density of different beers types (e.g. IPA, American P
 
 We can typically see how certain events influence a beeer's popularity (St. Patrick's day or Christmas / New Year's Eve for example) :
 <p align="middle">
- <img src="https://github.com/epfl-ada/ada-2022-project-appliedmacaqueanalysis/blob/main/images/irish_stout_popularity.jpeg" width="300"/>
- <img src="https://github.com/epfl-ada/ada-2022-project-appliedmacaqueanalysis/blob/main/images/winter_warmer_popularity.jpeg" width="300"/>
+ <img src="images/irish_stout_popularity.jpeg" width="300"/>
+ <img src="images/winter_warmer_popularity.jpeg" width="300"/>
 </p>
 
 
