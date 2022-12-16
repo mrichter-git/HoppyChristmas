@@ -1,4 +1,4 @@
 # this is where we will write everything
 <p align="center">
-![My Images](images/images.jpeg)
+<img src="https://github.com/mrichter-git/HoppyChristmas/blob/master/images/images.jpeg">
 </p>
