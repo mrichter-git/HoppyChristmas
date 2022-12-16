@@ -44,46 +44,8 @@ To further study those particular beers, we will take a look at the average grad
 Based on the lexic used to review winter beers, we would like to extract the key features and words describing what makes a beer a successful one during winter period. Should any Natural Language Processing be required, we will conduct a sentiment analysis on these reviews using the _NLTK_ library. This will provide us with the needed tools to investigate how much the user appreciated it.
 
 
-## Tasks repartition
+### Little reminder : if you want to taste a beer :
 
-Data story
-
-| Names                | Tasks |
-|-----------------|-------|
-| Louis Gounot    | Data story, Features extraction |
-| Hugo Delesalle  | Preprocessing, Data visualization |
-| Baudouin Bosc   | Sentiment analysis, Data visualization|
-| Michael Richter | Seasonal trend analysis, Data story |
-
-## Proposed timeline
-
-19.11 &#8594; 02.12 :
- * Preprocessing
- * Seasonal trend analysis
-
-
-02.12 &#8594; 16.12 : 
- * Sentiment analysis
- * Start of data story:
-   * website creation
-   * global structure
- * Features extraction
-
-
-16.12 &#8594; 21.12 :
-
-  * Data visualization
-  * Data story : 
-     * write story and connect dots
-     * embed graphics
-
-21.12 &#8594; 23.12 - 23h50 :
-
-   * Draw conclusions
-   * Clean up code
-
-23.12 - 23h51 &#8594; 23.12 - 23h59 :
-
-  * git commit
-  * git push
-  * Taste beers
+ <p align="middle">
+  <img src="images/unknown" width="300" />
+</p>
