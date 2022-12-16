@@ -3,11 +3,4 @@ description: The website for the group Applied Macaque analysis
 show_downloads: False
 github.is_project_page: False
 theme: jekyll-theme-cayman
-navigation:
-  - title: test
-    url: /
-  - title: Example
-    url: /example
-  - title: test
-    url: /test
    
