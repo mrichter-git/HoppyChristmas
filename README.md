@@ -3,5 +3,5 @@
 ## waaazaa
 ### mangemonzeub
 
-![Screenshot](images.png)
+![Image](images.png)
 
