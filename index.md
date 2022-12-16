@@ -49,13 +49,6 @@ Once the season beers have been selected, it's important to know which ones are 
 
 ## Conclude
 
-## Research questions:
-* Can we find successful beers during a certain season?
-* If yes, what makes a trendy christmas beer? 
-  * What characterises them ? Is there a specific flavor which is more appreciated in winter, or does it even have influence in that regard ?
-  * Can we find key words, describing what would make a beer successful on winter days e.g. the feeling of warmness it provides ?
-  * Are there confounding factors ?
-* Can we extend the analysis we made for the Christmas beers to the other ones ?
  
 ## Methods
 
