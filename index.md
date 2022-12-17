@@ -1,9 +1,14 @@
 As a small brewery, it's important to stay up to date on the latest trends in the beer industry. One way to do this is by analyzing reviews from websites like BeerAdvocate and RateBeers, where beer enthusiasts share their thoughts on different types of beers. Our brewery is curious to know what makes a beer trendy at a certain period of the year and if it will be trendy the following years. In particular, we are interested in finding out which types of beers would be best suited for a winter beer release and more specifically for a Christmas beer release. We would also like to understand what goes into making such a beer: what are the most desired features and typical charateristics of a winter beer? Finally, the brewery seeks to discover how much this new perfect Christmas beer will be consumed relatively to other beers.
 
 # Beer seasonality
-The first step to grasping what makes a good christmas beer is to actually find some good christmas beers. As a starting hypothesis, we assumed that the temporal density of reviews of a beer was a good proxy for it's popularity. Based on this, beers were grouped by their type (IPA, Stout, Belgian ...) and the reviews of each day were counted. From this, we optained some types of beer with particular trends:
+The first step to grasping what makes a good christmas beer is to actually find some good christmas beers. As a starting hypothesis, we assumed that the temporal density of reviews of a beer was a good proxy for it's popularity. Based on this, beers were grouped by their type (IPA, Stout, Belgian ...) and the reviews of each day were counted. From this, we optained some beers with particular trends:
 
-> Insert graph of beer peak e.g. Stouts
+We can typically see how certain events influence a beeer's popularity (St. Patrick's day for the irish stout and Christmas / New Year's Eve for the Winter Warmer) :
+<p align="middle">
+ <img src="images/irish_stout_popularity.jpeg" width="500"/>
+ <img src="images/winter_warmer_popularity.jpeg" width="500"/>
+</p>
+
 > Maybe also a steady beer e.g. IPA
 > Talk about why this can tell us which beers have seasonnality
 
