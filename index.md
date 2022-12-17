@@ -1,10 +1,49 @@
-# Rendu 3
+As a small brewery, it's important to stay up to date on the latest trends in the beer industry. One way to do this is by analyzing reviews from websites like BeerAdvocate and RateBeers, where beer enthusiasts share their thoughts on different types of beers. Our brewery is curious to know what makes a beer trendy at a certain period of the year and if it will be trendy the following years. In particular, we are interested in finding out which types of beers would be best suited for a winter beer release and more specifically for a Christmas beer release. We would also like to understand what goes into making such a beer: what are the most desired features and typical charateristics of a winter beer? Finally, the brewery seeks to discover how much this new perfect Christmas beer will be consumed relatively to other beers.
+
+# Beer seasonality
+The first step to grasping what makes a good christmas beer is to actually find some good christmas beers. As a starting hypothesis, we assumed that the temporal density of reviews of a beer was a good proxy for it's popularity. Based on this, beers were grouped by their type (IPA, Stout, Belgian ...) and the reviews of each day were counted. From this, we optained some types of beer with particular trends:
+
+> Insert graph of beer peak e.g. Stouts
+> Maybe also a steady beer e.g. IPA
+> Talk about why this can tell us which beers have seasonnality
+
+In order to really select the beer that were the most seasonnal, we gave the seasonality a rating. By decomposing the review count per day, we could isolate the trend of the beer, it's seasonnality score and how much our model was off. With this some special types of beer and some particular beers could be isolated.
+
+> Insert graph of decomposition (Hugo graph)
+> Describe what we can see, why it's interesting, maybe put also a non seasonal beer
+
+
+> Insert interactive scatter plot with seasonality
+> Allow to interact with it, maybe give a description of the beers when clicked on
+
+# Review sentiment analysis
+Using Natural language processing(NLP) methods, positive reviews could be selected. By subselecting the beers with a high average rating, We could extract the reviews that were considered positive and the ones that were considered negative. Here are some of the most prevalent words in each exculding some generally occuring words such as "beer" or "the"
+
+> insert word cloud with positive vs negative words
+> Talk a bit about the words that came out and what it intuitively has to do with positive/negative beers
+
+By using the Winter beers selected by the seasonality analysis, we get these most occuring words
+
+> insert word cloud with positive vs negative words for winter beers
+> Talk a bit about the words that came out and what it intuitively has to do with winter beers, maybe compare with the same set of graphs for summer beers
+
+# Feature extraction
+Now that we know which beers are popular in winter and that we know which of these beers have recieved a good review, we can extract features from these reviews. This implies finding the positive and negative adjectives attached to each feature that we are trying to study. These features can be properties of the beer such as flavour notes or color. They can also be any other nouns that relate to the beer such as the bottle and the pour.
+
+> Insert radio graph with the most occuring relations of certain features, maybe select feature from list and have it show up
+> Talk about interesting features and most occuring ones
+
+# Conclusion
+In light of all the previous findings, ....
+
+### Little reminder : if you want to taste a beer :
+
  <p align="middle">
-  <img src="images/images.jpeg" width="300" />
+  <img src="images/satellite.jpg" width="300" />
 </p>
 
-## Intro + Abstract
-Being a small brewery, we would like to conduct a study on beer trendiness to optimize our production with respect to time. We analyse seasonal trends in beer consumption to know when to release a new one. On top of this we analyse the evolution over time of multiple beer's consumption in order to have the minimum amount of remaining storage after sales. Our goals would be to understand what makes a beer trendy and be able to predict how the beer’s success evolves throughout the year. With this, we could know how much beer to produce at a certain time. In particular, we would like to produce a holiday season beer. To do so we will focus our analyses on the winter season. We would like to know what the typical characteristics of a Christmas beer are and how much people will consume it relatively to other beers.
+
+# RENDU 2
 
 ## Proposed method of analysis
 ### Preprocessing
@@ -52,7 +91,10 @@ Once the season beers have been selected, it's important to know which ones are 
  
 ## Methods
 
-
+# Rendu 3
+ <p align="middle">
+  <img src="images/images.jpeg" width="300" />
+</p>
 
 
 ### Little reminder : if you want to taste a beer :
