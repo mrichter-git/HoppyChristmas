@@ -112,3 +112,4 @@ Once the season beers have been selected, it's important to know which ones are 
 {% include test.html %}
 {% include custom_filename.html %}
 {% include radarplot.html %}
+{% include file.html %}
