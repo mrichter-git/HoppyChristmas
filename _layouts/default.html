@@ -1,123 +1,35 @@
-<!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta charset="UTF-8">
-    <link rel="icon" type="image/png"  href="assets/img/favicon.png">
-    <title>Hoppy Christmas</title>
 
-  {% seo %}
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#f0ec9e">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    {% include head-custom.html %}
-    
-    <style>
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-    }
-    .topnav {
-      overflow: hidden;
-      background-color: #333;
-    }
-    .topnav a {
-      float: left;
-      color: #f2f2f2;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-      font-size: 17px;
-    }
-    .topnav a:hover {
-      background-color: #ddd;
-      color: black;
-    }
-    .topnav a.active {
-      background-color: #04AA6D;
-      color: white;
-    }
-      
-    <style type="text/css" media="screen">
-     * {
-       margin: 0; 
-       padding: 0;
-     }
-
-     div#banner { 
-       position: absolute; 
-       top: 80; 
-       left: 0; 
-       background-color: #ff7878; 
-       width: 100%; 
-     }
-     div#banner-content { 
-       width: 800px; 
-       margin: 0 auto; 
-       padding: 10px; 
-     }
-     div#main-content { 
-       padding-top: 680px;
-    }
-    </style>
-  </head>
-  
-</style>
-
-  <body>
-    <div class="topnav">
-      <a class="active" href="#home">Home</a>
-      <a href="#suce">Ceci</a>
-      <a href="#mon">Est</a>
-      <a href="#zeub">Une barre de navig</a>
-    </div>
-    
-    <!--
-    <a id="skip-to-content" href="#content">Skip to the content.</a>
-    -->
-    
-    <div id="banner">
-      <div id="banner-content">
-      This is your banner text, centered and fixed at 800px in width
-    </div>
-    </div>
-      <div id="main-content">
-      <main id="content" class="main-content" role="main">
-      {{ content }} 
-    </div>
-    
-    <!--
-    <header class="page-header" role="banner">
-      <h1 class="project-name"> <img src="images/Beer.png" height="200" width="200"></a> Hoppy Christmas! <img src="images/Beer.png" height="200" width="200"></a> </h1>
-      <h2 class="description-project"> A guide to christmas beers.</h1>
-    </header>
-
-    
-     <main id="content" class="main-content" role="main">
-     {{ content }} 
-     -->
-
-        
-      <footer class="site-footer">
-        
-          <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> was created by Louis Gounot, Hugo Delesalle, Baudouin Bosc and Michael Richter</span>
-        
-      </footer>
-    </main>
-  </body>
-</html>
-<!--
 <!doctype html>
 <html>
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <link rel="icon" type="image/png"  href="assets/img/favicon.png">
-    <title>{{ site.title | default: site.github.repository_name }} by {{ site.github.owner_name }}</title>
+    <title>Hoppy Christmas</title>
     <link rel="stylesheet" href="{{ '/assets/css/styles.css?v=' | append: site.github.build_revision | relative_url }}">
     <meta name="viewport" content="width=device-width">
+
+    <style type="text/css" media="screen">
+       * {
+         margin: 0; 
+         padding: 0;
+        }
+       div#banner { 
+         position: absolute; 
+         top: 80; 
+         left: 0; 
+         background-color: #ff7878; 
+         width: 100%; 
+        }
+       div#banner-content { 
+         width: 800px; 
+         margin: 0 auto; 
+         padding: 10px; 
+         }
+         div#main-content { 
+           padding-top: 680px;
+        }
+      </style>
   </head>
   
   
@@ -142,4 +54,4 @@
   {% endif %}
   </body>
 </html>
- -->
+
