@@ -19,12 +19,10 @@
       margin: 0;
       font-family: Arial, Helvetica, sans-serif;
     }
-
     .topnav {
       overflow: hidden;
       background-color: #333;
     }
-
     .topnav a {
       float: left;
       color: #f2f2f2;
@@ -33,21 +31,15 @@
       text-decoration: none;
       font-size: 17px;
     }
-
     .topnav a:hover {
       background-color: #ddd;
       color: black;
     }
-
     .topnav a.active {
       background-color: #04AA6D;
       color: white;
     }
-    
       
-      
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>Test</title>
     <style type="text/css" media="screen">
      * {
        margin: 0; 
@@ -56,19 +48,18 @@
 
      div#banner { 
        position: absolute; 
-       top: 0; 
+       top: 80; 
        left: 0; 
-       background-color: #DDEEEE; 
+       background-color: #ff7878; 
        width: 100%; 
      }
      div#banner-content { 
        width: 800px; 
        margin: 0 auto; 
        padding: 10px; 
-       border: 1px solid #000;
      }
      div#main-content { 
-       padding-top: 70px;
+       padding-top: 680px;
     }
     </style>
   </head>
@@ -108,10 +99,47 @@
      {{ content }} 
      -->
 
+        
       <footer class="site-footer">
+        
           <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> was created by Louis Gounot, Hugo Delesalle, Baudouin Bosc and Michael Richter</span>
-
+        
       </footer>
     </main>
   </body>
 </html>
+<!--
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link rel="icon" type="image/png"  href="assets/img/favicon.png">
+    <title>{{ site.title | default: site.github.repository_name }} by {{ site.github.owner_name }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/styles.css?v=' | append: site.github.build_revision | relative_url }}">
+    <meta name="viewport" content="width=device-width">
+  </head>
+  
+  
+  
+  <body>
+    <div class="wrapper">
+
+      {{ content }}
+
+    </div>
+    <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
+
+  {% if site.google_analytics %}
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        ga('create', '{{ site.google_analytics }}', 'auto');
+        ga('send', 'pageview');
+    </script>
+  {% endif %}
+  </body>
+</html>
+ -->
