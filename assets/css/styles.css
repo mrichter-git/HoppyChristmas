@@ -18,11 +18,42 @@ p, ul, ol, table, pre, dl {
 h1, h2, h3 {
   line-height:1.1;
 }
-
+<!--
 h1 {
   font-size:28px;
   font-weight: 500;
 }
+-->
+
+
+h1 {
+  --color1: #1528ec;
+  --color2: #ff0a0a;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  font-size: 46px;
+  background: repeating-linear-gradient(
+    45deg,
+    var(--color1),
+    var(--color1) 30px,
+    var(--color2) 30px,
+    var(--color2) 60px
+  );
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+  animation: 40s linear 0s infinite move;
+}
+
+@keyframes move {
+  from {
+    background-position: 0px;
+  }
+  to {
+    background-position: 1000px;
+  }
+}
+
 
 h2 {
   color:#393939;
