@@ -16,7 +16,7 @@
         }
        div#banner { 
          position: absolute; 
-         top: 80; 
+         top: 0; 
          left: 0; 
          background-color: #ff7878; 
          width: 100%;
@@ -38,14 +38,15 @@
   <body>
     <div id="banner">
       <div id="banner-content">
-      Hoppy Christmas! A guide to a christmas beer
+      <h1 class="project-name"> <img src="images/Beer.png" height="200" width="200"></a> Hoppy Christmas! <img src="images/Beer.png" height="200" width="200"></a> </h1>
+      <h2 class="description-project"> A guide to christmas beers.</h1>
     </div>
-      
-    <div class="wrapper">
-
-      {{ content }}
-
     </div>
+      <div id="main-content">
+      <main id="content" class="main-content" role="main">
+      {{ content }} 
+    </div>
+
     <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
 
   {% if site.google_analytics %}
