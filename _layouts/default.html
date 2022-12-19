@@ -43,6 +43,34 @@
       background-color: #04AA6D;
       color: white;
     }
+    
+      
+      
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Test</title>
+    <style type="text/css" media="screen">
+     * {
+       margin: 0; 
+       padding: 0;
+     }
+
+     div#banner { 
+       position: absolute; 
+       top: 0; 
+       left: 0; 
+       background-color: #DDEEEE; 
+       width: 100%; 
+     }
+     div#banner-content { 
+       width: 800px; 
+       margin: 0 auto; 
+       padding: 10px; 
+       border: 1px solid #000;
+     }
+     div#main-content { 
+       padding-top: 70px;
+    }
+    </style>
   </head>
   
 </style>
@@ -55,17 +83,30 @@
       <a href="#zeub">Une barre de navig</a>
     </div>
     
+    <!--
     <a id="skip-to-content" href="#content">Skip to the content.</a>
-  
+    -->
     
+    <div id="banner">
+      <div id="banner-content">
+      This is your banner text, centered and fixed at 800px in width
+    </div>
+    </div>
+      <div id="main-content">
+      <main id="content" class="main-content" role="main">
+      {{ content }} 
+    </div>
+    
+    <!--
     <header class="page-header" role="banner">
       <h1 class="project-name"> <img src="images/Beer.png" height="200" width="200"></a> Hoppy Christmas! <img src="images/Beer.png" height="200" width="200"></a> </h1>
       <h2 class="description-project"> A guide to christmas beers.</h1>
     </header>
 
     
-    <main id="content" class="main-content" role="main">
-      {{ content }}
+     <main id="content" class="main-content" role="main">
+     {{ content }} 
+     -->
 
       <footer class="site-footer">
           <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> was created by Louis Gounot, Hugo Delesalle, Baudouin Bosc and Michael Richter</span>
