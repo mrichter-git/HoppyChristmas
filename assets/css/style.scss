@@ -12,36 +12,6 @@
  background-color: #45021F ; 
 }
 
-.h1 {
-  --color1: #1528ec;
-  --color2: #ff0a0a;
-  font-family: "Open Sans", sans-serif;
-  text-align: center;
-  font-size: 46px;
-  background: repeating-linear-gradient(
-    45deg,
-    var(--color1),
-    var(--color1) 30px,
-    var(--color2) 30px,
-    var(--color2) 60px
-  );
-  background-clip: text;
-  color: transparent;
-  -webkit-background-clip: text;
-  animation: 40s linear 0s infinite move;
-}
-
-@keyframes move {
-  from {
-    background-position: 0px;
-  }
-  to {
-    background-position: 1000px;
-  }
-}
-
-
-
 $globe-width:   12px;
 $globe-height:  28px;
 $globe-spacing: 40px;
@@ -138,82 +108,4 @@ $light-off-opacity: 0.4;
     box-shadow: 0px $globe-height/6 $globe-width*2 $globe-spread rgba(247,0,148,1);} 
     50% { background: rgba(247,0,148,$light-off-opacity);
     box-shadow: 0px $globe-height/6 $globe-width*2 $globe-spread rgba(247,0,148,0.2);}
-}
-
-.xmas {
-  box-sizing: border-box;
-  box-shadow: 0 10px 25px 0 rgba(0,0,0,0.25);
-  background-color: PapayaWhip;
-  width: 715px;
-  max-height: 480px;
-  height: 100vh;
-  margin: 0 auto;
-  overflow: hidden;
-  padding: 30px;
-  
-  &-row {
-    float: left;
-    margin-top: -230px;
-
-    &:not(:first-child) {
-      margin-left: 30px;
-    }
-
-    &:nth-child(odd) {
-      animation: snow 8s linear infinite;
-    }
-  }
-
-  &-tree {
-    margin-bottom: 20px;
-
-    &_branch {
-      animation: color 5s linear infinite;
-      width: 25px;
-      height: 25px;
-      border-right: 2px solid LightSalmon;
-      border-bottom: 2px solid MediumSeaGreen;
-      margin: 5px;
-      transform: rotate(-135deg);
-
-      &:nth-child(even) {
-        margin-top: -10px;
-      }
-    }
-  }
-
-  &-pine {
-    margin-bottom: 30px;
-
-    &_branch {
-      animation: color 5s linear infinite;
-      width: 0;
-      height: 0;
-      border-style: solid;
-      border-width: 0 20px 25px 20px;
-      border-color: transparent transparent MediumSeaGreen transparent;
-
-      &:first-child {
-        border-bottom-color: LightSalmon;
-        position: relative;
-        z-index: 10;
-      }
-      
-      &:not(:first-child) {
-        margin-top: -10px;
-      }
-    }
-  }
-}
-
-@keyframes snow {
-  100% {
-    margin-top: -23px;
-  }
-}
-
-@keyframes color {
-  40%, 50% {
-    border-bottom-color: MediumTurquoise;
-  }
 }
