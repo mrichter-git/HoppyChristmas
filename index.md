@@ -109,7 +109,5 @@ Once the season beers have been selected, it's important to know which ones are 
 </p>
 
 ### tests
-{% include test.html %}
-{% include custom_filename.html %}
-{% include radarplot.html %}
+
 {% include file.html %}
