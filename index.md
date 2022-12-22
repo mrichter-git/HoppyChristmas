@@ -1,3 +1,4 @@
+
 As a small brewery, it's important to stay up to date on the latest trends in the beer industry. One way to do this is by analyzing reviews from websites like BeerAdvocate and RateBeers, where beer enthusiasts share their thoughts on different types of beers. Our brewery is curious to know what makes a beer trendy at a certain period of the year and if it will be trendy the following years. In particular, we are interested in finding out which types of beers would be best suited for a winter beer release and more specifically for a Christmas beer release. We would also like to understand what goes into making such a beer: what are the most desired features and typical charateristics of a winter beer? Finally, the brewery seeks to discover how much this new perfect Christmas beer will be consumed relatively to other beers.
 
 # Beer seasonality
