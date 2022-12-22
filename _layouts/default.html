@@ -78,7 +78,12 @@
 
     <header class="page-header" role="banner">
       <h1 class="project-name">Hoppy Christmas!</h1>
-      <h2 class="description-project"> A guide to christmas beers.</h1>
+      <h2 class="description-project"> A guide to christmas beers.</h2>
+      <div class="bokeh">
+        {% for i in (1..150) %}
+          <div class="light"></div>
+        {% endfor %}
+      </div>
     </header>
 
     <div id="banner">
