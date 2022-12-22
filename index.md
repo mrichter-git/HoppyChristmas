@@ -113,4 +113,4 @@ Once the season beers have been selected, it's important to know which ones are 
 
 {% include summerfile.html %}
 {% include winterfile.html %}
-
+{% include joli_gounot.html %}
