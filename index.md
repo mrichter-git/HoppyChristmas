@@ -114,3 +114,4 @@ Once the season beers have been selected, it's important to know which ones are 
 {% include summerfile.html %}
 {% include winterfile.html %}
 {% include irish_stout_decompose.html %}
+{% include delirium_seasonal_decomp.html %}
