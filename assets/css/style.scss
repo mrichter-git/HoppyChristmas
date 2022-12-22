@@ -12,8 +12,13 @@
   background-position: center;
   height: auto;
 }
-.page-body{
+.main-content {
  background-color: #45021F ; 
+}
+.project-name {
+  color: #fff; /* white */
+  text-shadow: 0 0 10px #000; /* black */
+  background: linear-gradient(45deg, #f00, #fff, #f00); /* candy cane gradient */
 }
 
 $globe-width:   12px;
