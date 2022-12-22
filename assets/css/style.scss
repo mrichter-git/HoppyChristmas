@@ -6,7 +6,10 @@
   color:#fff;
   text-align: center;
   background-color: #ff6060;
-  background-image: url(../img/beerbackground.gif)
+  background-image: url(../img/beerbackground.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 .body{
  background-color: #45021F ; 
