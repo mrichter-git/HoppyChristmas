@@ -111,4 +111,6 @@ Once the season beers have been selected, it's important to know which ones are 
 ### tests
 
 {% include file.html %}
-{% include sliderfile.html %}
+{% include summerfile.html %}
+{% include winterfile.html %}
+
