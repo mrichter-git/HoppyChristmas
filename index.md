@@ -27,12 +27,13 @@ The same decomposition is also valid on individual beers, given that they have e
 
 Again, we see what was expected: a peak around December. Since this beer is probably only available around Christmas, this result is not surprising. Nonetheless, the cause of the popularity surge doesn't matter. If the beer is available all year or if it is only available at Christmas, it remains a holiday season beer. Therefore the hypothesis of using a beer review density as popularity stands.   
 
-Knowing this, we could do the decomposition for every beer type on the websites RateBeer and BeerAdvocate to find the beers with the highest seasonality. For christmas, we looked at the beers that had a high seasonality value in the winter months and we obtained the following beer types: 
+Knowing this, we could do the decomposition for every beer type on the websites RateBeer and BeerAdvocate to find the beers with the highest seasonality. For Christmas, we looked at the beers that had a high seasonality coefficient value in the winter months and we obtained the following beers: 
 <p align="middle">
  <img src="images/winter_bar.jpg" width=auto/>
 </p>
 
-By looking at the beers that have their seasonality peak in summer, we can also find some summer beer types:
+The beers found correspond to our expectations with most having a reference to Christmas or to Winter in their titles.
+By looking at the beers that have their seasonality peak in summer, we can also find some summer beers:
 <p align="middle">
  <img src="images/summer_bar.jpg" width=auto/>
 </p>
@@ -48,10 +49,7 @@ Once the beers that display a trend around december are selected, we want to kno
 
 On the image on the left, we can find the most common words used to describe the beers of the dataset. Not surprisingly, some words like *"beer"* or *"flavour"* appear very often in the reviews. Therefore, once removed, we should obtain a good idea of the winter beer words in the middle and the summer beer words on the right. In the winter beers, we find a lot of words that describe the beer characteristics and aren't very useful, such as *"taste"* or *"aroma"*. Nonetheless, we get some interesting attributes that appear like *"spice"*, *"Fruits"* or *"Cinnamon"*. The same idea can be done for the summer beers. Some interesting words are *"banana"*, *"citrus"* or again *"spice"*.
 
-> insert word cloud with positive vs negative words for winter beers
-> Talk a bit about the words that came out and what it intuitively has to do with winter beers, maybe compare with the same set of graphs for summer beers
-
-# How to make a good winter beer?
+# What makes a good winter beer?
 Now that we know which beers are popular in winter and that we know which of these beers have received a good review, we can extract features from these reviews. These features can be properties of the beer such as flavour notes, color or even the bottle itself. This consists of finding the adjectives attached to each feature that we are trying to study. Since we are studying a subset of the reviews of positive reviews trendy in december, the adjectives attaches are expected to describe a positive trait of the beer. We choose to take the 5 features that appear the most often. Then for each feature, we extract again the 5 most recurrent words that describe this features. By normalizing these values to get a percentage of occurrence, the most important characteristics and their most important attributes can be plotted:
 
 For winter time, we get:
@@ -60,8 +58,37 @@ For winter time, we get:
 We also wanted to know if a characteristics of a good winter beer are also required to make a good summer beer. To do so, the same analysis done to winter beers was also done for summer beers giving:
 {% include summerfile.html %}
 
+# How can we make the perfect Christmas beer?
+With this, we can start to answer the initial question: How do we make this perfect christmas beer? Intuitively, it is possible to choose some Christmassy attributes. One would assume a cinnamon flavoured beer would suit a Christmas beer. By looking at the word clouds, these intuitions can be confirmed or not. But giving Christmassy tastes to the beer won't always make it popular. To know what the most popular beer attributes are, we need to look at the radar plots. We see that some of the attributes are shared between winter and summer beers, but we can nonetheless define a good christmas beer. The best christmas beer 
 
-> Talk about interesting features and most occurring ones
+<div class="container">
+  <div class="textbox">
+    <h1>The best winter beer  </h1>
+    <p>Head: White </p>
+    <p>Color: Brown </p>
+    <p>Carbonation: Medium </p>
+    <p>Head:whit </p>
+
+  </div>
+  <div class="borderbox">
+    <div class="glass"> 
+      <div class="inner">
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+      </div>
+    </div>
+  </div>
+</div>
 
 # Conclusion
 In light of all the previous findings, beers have a seasonality and they have typical characteristics depending on the season. Certain beers have common features such as the body, the head or the carbonation of the beer. But value features will differ depending on the season. But our first question was to understand what makes a typical christmas beer. Obviously, christmas beers are beers that are consumed during the winter season with typical characteristics such as white foam, dark colors, and not too much carbonation. We can see that there are quite some differences with sumer beers which have characteristics like golden colors, high level of carbonation. 
