@@ -15,6 +15,7 @@ We can typically see how certain events influence a beeer's popularity (St. Patr
 
 In order to really select the beer that were the most seasonnal, we gave the seasonality a rating. By decomposing the review count per day, we could isolate the trend of the beer, it's seasonnality score and how much our model was off. With this some special types of beer and some particular beers could be isolated.
 {% include irish_stout_decompose.html %}
+{% include delirium_seasonal_decomp.html %}
 > Describe what we can see, why it's interesting, maybe put also a non seasonal beer
 
 
@@ -112,4 +113,3 @@ Once the season beers have been selected, it's important to know which ones are 
 
 {% include summerfile.html %}
 {% include winterfile.html %}
-{% include delirium_seasonal_decomp.html %}
