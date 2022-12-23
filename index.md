@@ -61,13 +61,41 @@ We also wanted to know if a characteristics of a good winter beer are also requi
 # How can we make the perfect Christmas beer?
 With this, we can start to answer the initial question: How do we make this perfect christmas beer? Intuitively, it is possible to choose some Christmassy attributes. One would assume a cinnamon flavoured beer would suit a Christmas beer. By looking at the word clouds, these intuitions can be confirmed or not. But giving Christmassy tastes to the beer won't always make it popular. To know what the most popular beer attributes are, we need to look at the radar plots. We see that some of the attributes are shared between winter and summer beers, but we can nonetheless define a good christmas beer. The best christmas beer 
 
-<div class="container">
+<div class="containerwin">
   <div class="textbox">
-    <h1>The best winter beer  </h1>
+    <h5>The best winter beer  </h5>
     <p>Head: White </p>
     <p>Color: Brown </p>
     <p>Carbonation: Medium </p>
-    <p>Head:whit </p>
+
+  </div>
+  <div class="borderbox">
+    <div class="glass"> 
+      <div class="inner">
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container">
+  <div class="textbox">
+    <h5>The best winter beer  </h5>
+    <p>Head: White </p>
+    <p>Color: Golden/Yellow </p>
+    <p>Carbonation: High </p>
 
   </div>
   <div class="borderbox">
