@@ -27,10 +27,15 @@ The same decomposition is also valid on individual beers, given that they have e
 
 Again, we see what was expected: a peak around December. Since this beer is probably only available around Christmas, this result is not surprising. Nonetheless, the cause of the popularity surge doesn't matter. If the beer is available all year or if it is only available at Christmas, it remains a holiday season beer. Therefore the hypothesis of using a beer review density as popularity stands.   
 
-> Insert bar plot with seasonality
-> a
-> a
-> Allow to interact with it, maybe give a description of the beers when clicked on
+Knowing this, we could do the decomposition for every beer type on the websites RateBeer and BeerAdvocate to find the beers with the highest seasonality. For christmas, we looked at the beers that had a high seasonality value in the winter months and we obtained the following beer types: 
+<p align="middle">
+ <img src="images/winter_bar.jpg" width=auto/>
+</p>
+
+By looking at the beers that have their seasonality peak in summer, we can also find some summer beer types:
+<p align="middle">
+ <img src="images/summer_bar.jpg" width=auto/>
+</p>
 
 # Of these seasonal beers, which ones are good?
 Once the beers that display a trend around december are selected, we want to know which ones are overall appreciated. Relying solely on the rating isn't enough: some people give strict ratings but very positive written reviews and vice-versa. To remedy to this issue, natural language processing (NLP) methods were used. We could then qualify the reviews based on if they were considered positive or negative. By simply counting how much a word appears in the reviews, we can find the most prevalent words to describe categories of beers. First of all, the overall most used words to describe beers were found. To be able to capture the most common words for the winter beers, the most common words overall were removed.
@@ -40,6 +45,8 @@ Once the beers that display a trend around december are selected, we want to kno
  <img src="images/winter_WC.jpg" height = "400" style="margin: 0px 0px 5px 5px;" />
  <img src="images/summer_WC.jpg" height = "400" style="margin: 0px 0px 5px 5px;" />
 </p>
+
+On the image on the left, we can find the most common words used to describe the beers of the dataset. Not surprisingly, some words like *"beer"* or *"flavour"* appear very often in the reviews. Therefore, once removed, we should obtain a good idea of the winter beer words in the middle and the summer beer words on the right. In the winter beers, we find a lot of words that describe the beer characteristics and aren't very useful, such as *"taste"* or *"aroma"*. Nonetheless, we get some interesting attributes that appear like *"spice"*, *"Fruits"* or *"Cinnamon"*. The same idea can be done for the summer beers. Some interesting words are *"banana"*, *"citrus"* or again *"spice"*.
 
 > insert word cloud with positive vs negative words for winter beers
 > Talk a bit about the words that came out and what it intuitively has to do with winter beers, maybe compare with the same set of graphs for summer beers
@@ -69,62 +76,3 @@ In light of all the previous findings, beers have a seasonality and they have ty
   </p>
 </div>
 
-<!---
-# RENDU 2
-
-## Proposed method of analysis
-### Preprocessing
-
-The data are already quite clean for this dataset: a large portion of data wrangling was already done for us. Also, we do not consider the _./ratings.txt.gz_ files in the BeerAdvocate and RateBeer folders, as they are an unclean version of the _./reviews.txt.gz_ files. 
-Firstly, some beers do not provide enough data to be taken into account in our processing. Thus, we filter for beers that have been reviewed for more than two years, and which already have enough feedbacks. The threshold for that is decided based on the distribution of the number of reviews per beer.
-
-To ease the access and the opening speed, we store those data as a pickle file (_.pkl_).
-
-### Feature extraction
-
-Then, by analysing review density of different beers types (e.g. IPA, American Pale Wheat Ale) as a proxy for beer popularity, we select a subset of beers that show a strong seasonnal trend as shown [here](https://towardsdatascience.com/finding-seasonal-trends-in-time-series-data-with-python-ce10c37aa861), in particular for the winter months.
-
-We can typically see how certain events influence a beeer's popularity (St. Patrick's day or Christmas / New Year's Eve for example) :
-<p align="middle">
- <img src="images/irish_stout_popularity.jpeg" width="300"/>
- <img src="images/winter_warmer_popularity.jpeg" width="300"/>
-</p>
-
-
-To further study those particular beers, we will take a look at the average grades to analyze how appreciated those popular beers are, along with the feeling experienced by the reviewers, and perform a comparison between the metrics of the seasonal beers and the non-seasonal ones.
-
-
-### Lexical differences between all beers and winter related beers
-
- <p align="middle">
-  <img src="images/wordmap.jpeg" width="300" />
-  <img src="images/winter_wordmap.jpeg" width="300" /> 
-</p>
-
-Based on the lexic used to review winter beers, we would like to extract the key features and words describing what makes a beer a successful one during winter period. Should any Natural Language Processing be required, we will conduct a sentiment analysis on these reviews using the _NLTK_ library. This will provide us with the needed tools to investigate how much the user appreciated it.
-
-
-## Beer seasonality analysis
-To be able to select a subset of seasonal beers, a trend analysis was conducted. To do so...
-
-
-## Review sentiment analysis and feature extraction
-Once the season beers have been selected, it's important to know which ones are good and which are bad. To do so, we check with the beers that have a good rating and test for positive text reviews. From this it's possible to extract the characteristic
-
-## Regroup, answer the question of title
-
-## Conclude
-
-
-
-### Little reminder : if you want to taste a beer :
-
- <p align="middle">
-  <img src="images/satellite.jpg" width="300" />
-</p>
-
-### tests
-
-{% include summerfile.html %}
-{% include winterfile.html %}
--->

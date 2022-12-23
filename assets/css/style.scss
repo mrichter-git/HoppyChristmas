@@ -50,22 +50,11 @@
 }
 
 .description-project {
-  --color1: #ffffff;
-  --color2: #ff4d6f;
-  font-family: "Open Sans", sans-serif;
-  text-align: center;
-  font-size: 46px;
-  background: repeating-linear-gradient(
-    45deg,
-    var(--color1),
-    var(--color1) 30px,
-    var(--color2) 30px,
-    var(--color2) 60px
-  );
-  background-clip: text;
-  color: transparent;
-  -webkit-background-clip: text;
-  animation: 40s linear 0s infinite move;
+  background-image: url(../img/beerbackground.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: auto;
   z-index: 2;
 }
 
