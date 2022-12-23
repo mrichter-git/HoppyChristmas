@@ -92,7 +92,7 @@ With this, we can start to answer the initial question: How do we make this perf
   <div class="borderboxwin">
     <div class="glasswin"> 
       <div class="innerwin">
-        {% for i in (1..12) %}
+        {% for i in (1..8) %}
           <div class="bubble"></div>
         {% endfor %}
       </div>
