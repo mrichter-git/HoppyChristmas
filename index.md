@@ -34,13 +34,15 @@ By using the Winter beers selected by the seasonality analysis, we get these mos
 > Talk a bit about the words that came out and what it intuitively has to do with winter beers, maybe compare with the same set of graphs for summer beers
 
 # Feature extraction
-Now that we know which beers are popular in winter and that we know which of these beers have recieved a good review, we can extract features from these reviews. This implies finding the positive and negative adjectives attached to each feature that we are trying to study. These features can be properties of the beer such as flavour notes or color. They can also be any other nouns that relate to the beer such as the bottle and the pour.
+Now that we know which beers are popular in winter and that we know which of these beers have recieved a good review, we can extract features from these reviews. This implies finding the positive and negative adjectives attached to each feature that we are trying to study. These features can be properties of the beer such as flavour notes or color. They can also be any other nouns that relate to the beer such as the bottle and the pour. We take the 5 best features that characterize best a beer. Then for each feature, we extract again the 5 most recurrent word that describe this features. You can see the plots just below.
+{% include summerfile.html %}
+{% include winterfile.html %}
 
 > Insert radio graph with the most occuring relations of certain features, maybe select feature from list and have it show up
 > Talk about interesting features and most occuring ones
 
 # Conclusion
-In light of all the previous findings, ....
+In light of all the previous findings, beers have a seasonality and they have typical characteristics depending on the season. Certain beers have common features such as the body, the head or the carbonation of the beer. But value features will differ depending on the season. But our first question was to understand what makes a typical christmas beer. Obviously, christmas beers are beers that are consumed during the winter season with typical characteristics such as white foam, dark colors, and not too much carbonation. We can see that there are quite some differences with sumer beears which have characteristics like golden colors, high level of carbonation. 
 
 ### Little reminder : if you want to taste a beer :
 
@@ -94,13 +96,6 @@ Once the season beers have been selected, it's important to know which ones are 
 
 ## Conclude
 
- 
-## Methods
-
-# Rendu 3
- <p align="middle">
-  <img src="images/images.jpeg" width="300" />
-</p>
 
 
 ### Little reminder : if you want to taste a beer :
