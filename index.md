@@ -59,19 +59,21 @@ We also wanted to know if a characteristics of a good winter beer are also requi
 {% include summerfile.html %}
 
 # How can we make the perfect Christmas beer?
-With this, we can start to answer the initial question: How do we make this perfect christmas beer? Intuitively, it is possible to choose some Christmassy attributes. One would assume a cinnamon flavoured beer would suit a Christmas beer. By looking at the word clouds, these intuitions can be confirmed or not. But giving Christmassy tastes to the beer won't always make it popular. To know what the most popular beer attributes are, we need to look at the radar plots. We see that some of the attributes are shared between winter and summer beers, but we can nonetheless define a good christmas beer. The best christmas beer 
+With this, we can start to answer the initial question: How do we make this perfect christmas beer? Intuitively, it is possible to choose some Christmassy attributes. One would assume a cinnamon flavoured beer would suit a Christmas beer. By looking at the word clouds, these intuitions can be confirmed or not. But giving Christmassy tastes to the beer won't always make it popular. To know what the most popular beer attributes are, we need to look at the radar plots. We see that some of the attributes are shared between winter and summer beers, but we can nonetheless define a good christmas beer:  
 
 <div class="containerwin">
-  <div class="textbox">
+  <div class="textboxwin">
     <h5>The best winter beer  </h5>
     <p>Head: White </p>
     <p>Color: Brown </p>
     <p>Carbonation: Medium </p>
+    <p>Lacing: Nice/Good </p>
+    <p>Body: Medium </p>
 
   </div>
-  <div class="borderbox">
-    <div class="glass"> 
-      <div class="inner">
+  <div class="borderboxwin">
+    <div class="glasswin"> 
+      <div class="innerwin">
         <div class="bubble"></div>
         <div class="bubble"></div>
         <div class="bubble"></div>
@@ -89,6 +91,7 @@ With this, we can start to answer the initial question: How do we make this perf
   </div>
 </div>
 
+The same applies for a good summer beer:
 
 <div class="container">
   <div class="textbox">
@@ -96,6 +99,8 @@ With this, we can start to answer the initial question: How do we make this perf
     <p>Head: White </p>
     <p>Color: Golden/Yellow </p>
     <p>Carbonation: High </p>
+    <p>Lacing: Nice/Good </p>
+    <p>Body: Medium </p>
 
   </div>
   <div class="borderbox">
@@ -117,6 +122,7 @@ With this, we can start to answer the initial question: How do we make this perf
     </div>
   </div>
 </div>
+
 
 # Conclusion
 In light of all the previous findings, beers have a seasonality and they have typical characteristics depending on the season. Certain beers have common features such as the body, the head or the carbonation of the beer. But value features will differ depending on the season. But our first question was to understand what makes a typical christmas beer. Obviously, christmas beers are beers that are consumed during the winter season with typical characteristics such as white foam, dark colors, and not too much carbonation. We can see that there are quite some differences with sumer beers which have characteristics like golden colors, high level of carbonation. 
