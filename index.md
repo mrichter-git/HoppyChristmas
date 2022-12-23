@@ -54,7 +54,7 @@ We also wanted to know if a characteristics of a good winter beer are also requi
 > Talk about interesting features and most occurring ones
 
 # Conclusion
-In light of all the previous findings, beers have a seasonality and they have typical characteristics depending on the season. Certain beers have common features such as the body, the head or the carbonation of the beer. But value features will differ depending on the season. But our first question was to understand what makes a typical christmas beer. Obviously, christmas beers are beers that are consumed during the winter season with typical characteristics such as white foam, dark colors, and not too much carbonation. We can see that there are quite some differences with sumer beears which have characteristics like golden colors, high level of carbonation. 
+In light of all the previous findings, beers have a seasonality and they have typical characteristics depending on the season. Certain beers have common features such as the body, the head or the carbonation of the beer. But value features will differ depending on the season. But our first question was to understand what makes a typical christmas beer. Obviously, christmas beers are beers that are consumed during the winter season with typical characteristics such as white foam, dark colors, and not too much carbonation. We can see that there are quite some differences with sumer beers which have characteristics like golden colors, high level of carbonation. 
 
 # Hoppy Christmas and a happy brew year!
 ### Little reminder : if you want to taste a beer :
