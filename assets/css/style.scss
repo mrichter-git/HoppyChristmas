@@ -354,7 +354,7 @@ $blurLevel: 2;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #002d0073; 
+  background-color: #0063008c; 
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -415,7 +415,7 @@ $blurLevel: 2;
   display: flex;
   align-items: center;
   justify-content: center; 
-  background-color: #2d000073;
+  background-color: #6a0101d9;;
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -473,188 +473,22 @@ $blurLevel: 2;
             transition: all 1s;
             transform-origin: 0 0; }
 
-/* Sass is awesome */
-.bubble:nth-child(0) {
-  position: absolute;
-  border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.4);
-  width: 10px;
-  height: 10px;
-  top: 64px;
-  left: 8px;
-  animation-name: bubbles;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
-  animation-duration: -1050ms;
-  animation-delay: 150ms; }
-
-.bubble:nth-child(1) {
-  position: absolute;
-  border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.4);
-  width: 10px;
-  height: 10px;
-  top: 253px;
-  left: 10px;
-  animation-name: bubbles;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
-  animation-duration: -50ms;
-  animation-delay: 151ms; }
-
-.bubble:nth-child(2) {
-  position: absolute;
-  border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.4);
-  width: 10px;
-  height: 10px;
-  top: 268px;
-  left: 201px;
-  animation-name: bubbles;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
-  animation-duration: 950ms;
-  animation-delay: 152ms; }
-
-.bubble:nth-child(3) {
-  position: absolute;
-  border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.4);
-  width: 10px;
-  height: 10px;
-  top: 201px;
-  left: 85px;
-  animation-name: bubbles;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
-  animation-duration: 1950ms;
-  animation-delay: 153ms; }
-
-.bubble:nth-child(4) {
-  position: absolute;
-  border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.4);
-  width: 10px;
-  height: 10px;
-  top: 110px;
-  left: 49px;
-  animation-name: bubbles;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
-  animation-duration: 2950ms;
-  animation-delay: 154ms; }
-
-.bubble:nth-child(5) {
-  position: absolute;
-  border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.4);
-  width: 10px;
-  height: 10px;
-  top: 215px;
-  left: 178px;
-  animation-name: bubbles;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
-  animation-duration: 3950ms;
-  animation-delay: 155ms; }
-
-.bubble:nth-child(6) {
-  position: absolute;
-  border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.4);
-  width: 10px;
-  height: 10px;
-  top: 63px;
-  left: 34px;
-  animation-name: bubbles;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
-  animation-duration: 4950ms;
-  animation-delay: 156ms; }
-
-.bubble:nth-child(7) {
-  position: absolute;
-  border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.4);
-  width: 10px;
-  height: 10px;
-  top: 247px;
-  left: 18px;
-  animation-name: bubbles;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
-  animation-duration: 5950ms;
-  animation-delay: 157ms; }
-
-.bubble:nth-child(8) {
-  position: absolute;
-  border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.4);
-  width: 10px;
-  height: 10px;
-  top: 159px;
-  left: 171px;
-  animation-name: bubbles;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
-  animation-duration: 6950ms;
-  animation-delay: 158ms; }
-
-.bubble:nth-child(9) {
-  position: absolute;
-  border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.4);
-  width: 10px;
-  height: 10px;
-  top: 22px;
-  left: 111px;
-  animation-name: bubbles;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
-  animation-duration: 7950ms;
-  animation-delay: 159ms; }
-
-.bubble:nth-child(10) {
-  position: absolute;
-  border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.4);
-  width: 10px;
-  height: 10px;
-  top: 275px;
-  left: 51px;
-  animation-name: bubbles;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
-  animation-duration: 8950ms;
-  animation-delay: 160ms; }
-
-.bubble:nth-child(11) {
-  position: absolute;
-  border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.4);
-  width: 10px;
-  height: 10px;
-  top: 205px;
-  left: 144px;
-  animation-name: bubbles;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
-  animation-duration: 9950ms;
-  animation-delay: 161ms; }
-
-.bubble:nth-child(12) {
-  position: absolute;
-  border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.4);
-  width: 10px;
-  height: 10px;
-  top: 195px;
-  left: 89px;
-  animation-name: bubbles;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
-  animation-duration: 10950ms;
-  animation-delay: 162ms; }
+  @for $i from 1 through 24{
+    .bubble:nth-child(#{$i}){
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgba(255,255,255,0.4);
+    width: 10px;
+    height: 10px;  
+    top: random(300 + $i) + px ;
+    left: random(200 + $i) + px ; 
+    animation-name: bubbles;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;        
+    animation-duration: (1000ms * $i) - 1050;
+    animation-delay: (50ms + $i) + 100; 
+    }
+  }
 
 @keyframes bubbles {
   100% {
