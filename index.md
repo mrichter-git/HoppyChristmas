@@ -1,29 +1,37 @@
-
+ 
 As a small brewery, it's important to stay up to date on the latest trends in the beer industry. One way to do this is by analyzing reviews from websites like BeerAdvocate and RateBeers, where beer enthusiasts share their thoughts on different types of beers. Our brewery is curious to know what makes a beer trendy at a certain period of the year and if it will be trendy the following years. In particular, we are interested in finding out which types of beers would be best suited for a winter beer release and more specifically for a Christmas beer release. We would also like to understand what goes into making such a beer: what are the most desired features and typical charateristics of a winter beer? Finally, the brewery seeks to discover how much this new perfect Christmas beer will be consumed relatively to other beers.
 
-# Beer seasonality
-The first step to grasping what makes a good christmas beer is to actually find some good christmas beers. As a starting hypothesis, we assumed that the temporal density of reviews of a beer was a good proxy for it's popularity. Based on this, beers were grouped by their type (IPA, Stout, Belgian ...) and the reviews of each day were counted. From this, we optained some beers with particular trends:
+# Which beers are seasonnal ?
+The first step to grasping what makes a good christmas beer is to actually find some christmas beers. As a starting hypothesis, we assumed that the temporal density of reviews of a beer is a good proxy for it's popularity: a beer that is reviewed a lot around Christmas and nearly not during summer is considered to be a Christmas beer. Based on this, beers were grouped by their type (IPA, Stout, Belgian ...) and the reviews of each day were counted. From this, we optained some beers with particular trends:
 
 We can typically see how certain events influence a beeer's popularity (St. Patrick's day for the irish stout and Christmas / New Year's Eve for the Winter Warmer) :
 <p align="middle">
- <img src="images/irish_stout_popularity.jpeg" width="500"/>
- <img src="images/winter_warmer_popularity.jpeg" width="500"/>
+ <img src="images/irish_stout_popularity.jpeg" width="400"/>
+ <img src="images/winter_warmer_popularity.jpeg" width="400"/>
 </p>
 
 > Maybe also a steady beer e.g. IPA
 > Talk about why this can tell us which beers have seasonnality
+ 
+In order to really select the beer that were the most seasonnal, we gave the seasonality a rating. By decomposing the review count per day, we could isolate the trend of the beer, it's seasonnality score and how much our model was off. Through this analysis, some beer types were found to display strong seasonnal trendiness. The *Irish Stout* is a great example. We expect it to be mainly consumed around St. Patrick's day (17 March). 
 
-In order to really select the beer that were the most seasonnal, we gave the seasonality a rating. By decomposing the review count per day, we could isolate the trend of the beer, it's seasonnality score and how much our model was off. With this some special types of beer and some particular beers could be isolated.
 {% include irish_stout_decompose.html %}
+
+As we can see from the graph above, the review density peak lies exactly in March each year. By separating the overall popularity (Trend) from a periodic signal (Seasonnality), The peaks in popularity are even more visible. Even a beer that had a very successful couple of years will be picked up by this decomposition.
+
+The same decomposition is also valid on individual beers, given that they have enough reviews. Here we look at the *Délirium Noël*. As the name suggests, the expected popularity peak is around Christmas.
+
 {% include delirium_seasonal_decomp.html %}
-> Describe what we can see, why it's interesting, maybe put also a non seasonal beer
 
+Again, we see what was expected: a peak around December. Since this beer is probably only available around Christmas, this result is not surprising. Nonetheless, the cause of the popularity surge doesn't matter. If the beer is available all year or if it is only available at Christmas, it remains a holiday season beer. Therefore the hypothesis of using a beer review density as popularity stands.   
 
-> Insert interactive scatter plot with seasonality
+> Insert bar plot with seasonality
+> a
+> a
 > Allow to interact with it, maybe give a description of the beers when clicked on
 
-# Review sentiment analysis
-Using Natural language processing(NLP) methods, positive reviews could be selected. By subselecting the beers with a high average rating, We could extract the reviews that were considered positive and the ones that were considered negative. Here are some of the most prevalent words in each exculding some generally occuring words such as "beer" or "the"
+# Of these seasonnal beers, which ones are good?
+Once the beers that display a trend around december are selected, we want to know which ones are overall appreciated. Relying solely on the rating isn't enough: some people give strict ratings but very positive written reviews and vice-versa. To remedy to this issue, natural language processign (NLP) methods were used. We could then qualify the reviews based on if they were considered positive or negative. By simply counting how much a word appears in the reviews, we can find the most prevalent words to describe categories of beers. First of all, the overall most used words to describe beers were found. To be able to capture the most common words for the winter beers, the most common words overall were removed.
 
 > insert word cloud with positive vs negative words
 > Talk a bit about the words that came out and what it intuitively has to do with positive/negative beers
@@ -33,7 +41,7 @@ By using the Winter beers selected by the seasonality analysis, we get these mos
 > insert word cloud with positive vs negative words for winter beers
 > Talk a bit about the words that came out and what it intuitively has to do with winter beers, maybe compare with the same set of graphs for summer beers
 
-# Feature extraction
+# How to make a good winter beer?
 Now that we know which beers are popular in winter and that we know which of these beers have recieved a good review, we can extract features from these reviews. This implies finding the positive and negative adjectives attached to each feature that we are trying to study. These features can be properties of the beer such as flavour notes or color. They can also be any other nouns that relate to the beer such as the bottle and the pour. We take the 5 best features that characterize best a beer. Then for each feature, we extract again the 5 most recurrent word that describe this features. You can see the plots just below.
 {% include summerfile.html %}
 {% include winterfile.html %}
@@ -44,13 +52,14 @@ Now that we know which beers are popular in winter and that we know which of the
 # Conclusion
 In light of all the previous findings, beers have a seasonality and they have typical characteristics depending on the season. Certain beers have common features such as the body, the head or the carbonation of the beer. But value features will differ depending on the season. But our first question was to understand what makes a typical christmas beer. Obviously, christmas beers are beers that are consumed during the winter season with typical characteristics such as white foam, dark colors, and not too much carbonation. We can see that there are quite some differences with sumer beears which have characteristics like golden colors, high level of carbonation. 
 
+# Hoppy Christmas and a happy brew year!
 ### Little reminder : if you want to taste a beer :
 
  <p align="middle">
   <img src="images/satellite.jpg" width="300" />
 </p>
 
-
+<!---
 # RENDU 2
 
 ## Proposed method of analysis
@@ -108,3 +117,4 @@ Once the season beers have been selected, it's important to know which ones are 
 
 {% include summerfile.html %}
 {% include winterfile.html %}
+-->
