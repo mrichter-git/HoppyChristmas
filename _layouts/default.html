@@ -41,39 +41,25 @@
     -->
 
     <header class="page-header" role="banner">
-      <h1 class="project-name">Hoppy Christmas! </h1> 
-      <img src="images/Beer.png" height="200" width="200">
-      <h2 class="description-project"> A guide to christmas beers.</h2>
-
       <div class="bokeh">
-
+        <h1 class="project-name">Hoppy Christmas! </h1> 
+        <img src="images/Beer.png" height="200" width="200">
+        <h2 class="description-project"> A guide to christmas beers.</h2>
         {% for i in (1..60) %}
           <div class="light"></div>
         {% endfor %}
       </div>
     </header>
-
-    <style>
-     div#banner { 
-       position: absolute; 
-       top: 1000; 
-       left: 0; 
-       background-color: #ff7878;
-       width: 100%; 
-     }
-    </style>
-
     
      <main id="content" class="main-content" role="main">
      {{ content }} 
 
-        
-      <footer class="site-footer">
-        
-          <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> was created by Louis Gounot, Hugo Delesalle, Baudouin Bosc and Michael Richter</span>
-        
-      </footer>
     </main>
+    <footer class="site-footer">
+        
+      <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> was created by Louis Gounot, Hugo Delesalle, Baudouin Bosc and Michael Richter</span>
+    
+  </footer>
   </body>
 </html>
 
