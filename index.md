@@ -36,9 +36,9 @@ Again, we see what was expected: a peak around December. Since this beer is prob
 Once the beers that display a trend around december are selected, we want to know which ones are overall appreciated. Relying solely on the rating isn't enough: some people give strict ratings but very positive written reviews and vice-versa. To remedy to this issue, natural language processing (NLP) methods were used. We could then qualify the reviews based on if they were considered positive or negative. By simply counting how much a word appears in the reviews, we can find the most prevalent words to describe categories of beers. First of all, the overall most used words to describe beers were found. To be able to capture the most common words for the winter beers, the most common words overall were removed.
 
 <p align="middle">
- <img src="images/all_WC.jpg" height = "500" />
- <img src="images/winter_WC.jpg" height = "500" />
- <img src="images/summer_WC.jpg" height = "500" />
+ <img src="images/all_WC.jpg" height = "400" style="margin: 0px 0px 5px 5px;"  />
+ <img src="images/winter_WC.jpg" height = "400" style="margin: 0px 0px 5px 5px;" />
+ <img src="images/summer_WC.jpg" height = "400" style="margin: 0px 0px 5px 5px;" />
 </p>
 
 > insert word cloud with positive vs negative words for winter beers
