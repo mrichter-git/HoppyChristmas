@@ -39,19 +39,6 @@
     <!--
     <a id="skip-to-content" href="#content">Skip to the content.</a>
     -->
-    
-
-    <header class="page-header" role="banner">
-      <div class="bokeh">
-        <h1 class="project-name">Hoppy Christmas! </h1> 
-        <img src="images/Beer.png" height="200" width="200">
-        <h2 class="description-project"> A guide to christmas beers.</h2>
-        {% for i in (1..60) %}
-          <div class="light"></div>
-        {% endfor %}
-      </div>
-    </header>
-
     <div id="banner">
       <div id="banner-content">
       <ul class="lightrope">
@@ -100,6 +87,17 @@
       </ul>
       </div>
     </div>
+
+    <header class="page-header" role="banner">
+      <div class="bokeh">
+        <h1 class="project-name">Hoppy Christmas! </h1> 
+        <img src="images/Beer.png" height="200" width="200">
+        <h2 class="description-project"> A guide to christmas beers.</h2>
+        {% for i in (1..60) %}
+          <div class="light"></div>
+        {% endfor %}
+      </div>
+    </header>
 
     <style>
      div#banner { 
