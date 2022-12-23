@@ -28,16 +28,6 @@
   height: auto;
   width: auto;
 }
-.site-footer-owner {
-  color:#000000;
-}
-.site-footer {  
-  background-image: url(../img/beerbackground.gif);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: auto;
-}
 
 .project-name {
   --color1: #3ca781;
@@ -58,7 +48,7 @@
   animation: 40s linear 0s infinite move;
 }
 
-.project-tagline {
+.description-project {
   --color1: #ffffff;
   --color2: #ff4d6f;
   font-family: "Open Sans", sans-serif;
