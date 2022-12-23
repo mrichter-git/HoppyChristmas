@@ -144,7 +144,7 @@ We found however that knowing what beer to make is only the first part of the an
   <h3>If you are looking for us, we'll be increasing our experience in beers:</h3>
 
   <p align="middle">
-    <img src="images/satellite.jpg" width=auto />
+    <img src="images/satellite.jpg" width=auto style="margin: 0px 0px 20px 20px;" />
   </p>
 </div>
 
