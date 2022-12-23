@@ -63,7 +63,7 @@ With this, we can start to answer the initial question: How do we make this perf
 
 <div class="containerwin">
   <div class="textboxwin">
-    <h5>The best winter beer  </h5>
+    <p><b>The best Winter Beer</b></p>
     <p>Head: White </p>
     <p>Color: Brown </p>
     <p>Carbonation: Medium </p>
@@ -95,7 +95,7 @@ The same applies for a good summer beer:
 
 <div class="container">
   <div class="textbox">
-    <h5>The best winter beer  </h5>
+    <p><b>The best Summer Beer</b></p>
     <p>Head: White </p>
     <p>Color: Golden/Yellow </p>
     <p>Carbonation: High </p>

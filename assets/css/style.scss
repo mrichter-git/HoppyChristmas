@@ -354,12 +354,14 @@ $blurLevel: 2;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #4d0000; 
+  background-color: #002d0073; 
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
   .container .textbox {
     width: 200px;
     margin-right: 10px;
-    color: #000852; }
+    color: #ffea97; }
   .container .borderbox {
     position: relative;
     transition: all 1s; }
@@ -413,12 +415,14 @@ $blurLevel: 2;
   display: flex;
   align-items: center;
   justify-content: center; 
-  background-color: #003d00;
+  background-color: #2d000073;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
   .containerwin .textboxwin {
     width: 200px;
     margin-right: 10px;
-    color: #010632; }
+    color: #a1aaff; }
   .containerwin .borderboxwin {
     position: relative;
     transition: all 1s; }
@@ -464,7 +468,7 @@ $blurLevel: 2;
             width: 200%;
             height: 240px;
             border-top: 50px solid white;
-            background: linear-gradient(to bottom, #4f200a 0%, #bc7012 100%);
+            background: linear-gradient(to bottom, #2c160c 0%, #5b250c 100%);
             background-color: #4f200a;
             transition: all 1s;
             transform-origin: 0 0; }
