@@ -41,16 +41,14 @@
     -->
 
     <header class="page-header" role="banner">
-      <a> 
+      <div class="bokeh">
         <h1 class="project-name">Hoppy Christmas! </h1> 
         <img src="images/Beer.png" height="200" width="200">
         <h2 class="description-project"> A guide on christmas beers.</h2>
-        <div class="bokeh">
-          {% for i in (1..60) %}
-            <div class="light"></div>
-          {% endfor %}
-        </div>
-      </a>
+        {% for i in (1..60) %}
+          <div class="light"></div>
+        {% endfor %}
+      </div>
     </header>
     
      <main id="content" class="main-content" role="main">
