@@ -111,7 +111,7 @@ The same applies for a good summer beer:
     <p>Lacing: Nice/Good </p>
     <p>Body: Medium </p>
 
-  </div>
+</div>
   <div class="borderbox">
     <div class="glass"> 
       <div class="inner">
@@ -131,8 +131,11 @@ In light of all the previous findings, some beers are seasonal and have typical 
 We found however that knowing what beer to make is only the first part of the analysis. As each characteristic depend on each other, experience in beer making is still necessary to brew the perfect beer. But by knowing the direction in which to go, an outline of a recipe can be given:
 
 > Grains: To achieve a brown color, you will want to use darker-colored grains such as caramel malt, chocolate malt, or black malt. These grains will also contribute to the body and flavor of the beer. You can also use lighter-colored grains such as pale malt or pilsner malt to balance the color and provide a crisp, refreshing flavor.
+>
 > Hops: Hops can contribute to the aroma and flavor of the beer, as well as the level of bitterness. Choose hops that will complement the flavor and aroma of the darker grains and contribute to the overall balance of the beer.
+>
 > Fermentation: The level of carbonation in the finished beer will be determined by the amount of carbon dioxide produced during fermentation. To achieve a medium level of carbonation, you will want to carefully control the fermentation process to produce the desired amount of carbon dioxide.
+>
 > Head retention: The appearance and stability of the head on the beer will be influenced by the types and amounts of proteins and sugars in the wort, as well as the pouring technique. To achieve a white head with good lacing, you will want to pay attention to these factors and adjust as needed.
 
 # Hoppy Christmas and a happy brew year!
