@@ -473,7 +473,7 @@ $blurLevel: 2;
             transition: all 1s;
             transform-origin: 0 0; }
 
-  @for $i from 1 through 24{
+  @for $i from 1 through 36{
     .bubble:nth-child(#{$i}){
     position: absolute;
     border-radius: 50%;
