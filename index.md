@@ -140,13 +140,13 @@ We found however that knowing what beer to make is only the first part of the an
 >
 > Head retention: The appearance and stability of the head on the beer will be influenced by the types and amounts of proteins and sugars in the wort, as well as the pouring technique. To achieve a white head with good lacing, you will want to pay attention to these factors and adjust as needed.
 
-# Hoppy Christmas and a happy brew year!
+# Hoppy Christmas and happy brew year!
 
 <div class="background_beer">
   <h3>If you are looking for us, we'll be increasing our experience in beers:</h3>
 
   <p align="middle">
-    <img src="images/satellite.jpg" width=auto style="margin: 0px 0px 20px 20px;" />
+    <img src="images/satellite.jpg" width=auto style="padding: 0px 20px 0px 20px;" />
   </p>
 </div>
 
