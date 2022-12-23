@@ -54,9 +54,11 @@ On the image on the left, we can find the most common words used to describe the
 Now that we know which beers are popular in winter and that we know which of these beers have received a good review, we can extract features from these reviews. These features can be properties of the beer such as flavour notes, color or even the bottle itself. This consists of finding the adjectives attached to each feature that we are trying to study. Since we are studying a subset of the reviews of positive reviews trendy in december, the adjectives attaches are expected to describe a positive trait of the beer. We choose to take the 5 features that appear the most often. Then for each feature, we extract again the 5 most recurrent words that describe this features. By normalizing these values to get a percentage of occurrence, the most important characteristics and their most important attributes can be plotted:
 
 For winter time, we get:
+{% include winterfilewoslider.html %}
 {% include winterfile.html %}
 
 We also wanted to know if a characteristics of a good winter beer are also required to make a good summer beer. To do so, the same analysis done to winter beers was also done for summer beers giving:
+{% include summerfilewoslider.html %}
 {% include summerfile.html %}
 
 <h4>Definitions:</h4>
